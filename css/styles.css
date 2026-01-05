@@ -24,10 +24,6 @@ body {
   margin: 0 auto;
 }
 
-.inner-container {
-  padding: 94px 0;
-}
-
 .title {
   margin-bottom: 50px;
   font-size: 36px;
@@ -75,9 +71,6 @@ a {
   display: flex;
   gap: 50px;
   margin-left: auto;
-}
-
-.header-list-item {
 }
 
 .header-list-link {
@@ -128,9 +121,7 @@ a {
 
 /* WORK */
 .work {
-}
-
-.work-container {
+  padding: 94px 0;
 }
 
 .work-list {
@@ -154,15 +145,14 @@ a {
   line-height: 24px;
 }
 
-.work-title {
-}
-
 .work-images {
   display: flex;
   gap: 30px;
 }
 
 .work-image {
+  height: 294px;
+  overflow: hidden;
   flex: 1 1 30%;
 }
 
@@ -174,13 +164,8 @@ a {
 
 /* TEAM */
 .team {
+  padding: 94px 0;
   background-color: #f5f4fa;
-}
-
-.team-container {
-}
-
-.team-title {
 }
 
 .team-cards {
@@ -204,30 +189,25 @@ a {
 }
 
 .team-card-desc {
-  padding: 30px 0;
+  font-size: 16px;
+  padding: 30px 30px;
 }
 
 .team-card-title {
   margin-bottom: 10px;
-  font-size: 16px;
   font-weight: 500;
   color: #212121;
 }
 
 .team-card-text {
-  font-size: 16px;
   color: #757575;
 }
 
 /* FOOTER */
 .footer {
   margin-top: auto;
+  padding: 60px 0;
   background-color: #2f303a;
-}
-
-.footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -245,9 +225,6 @@ a {
   display: flex;
   flex-direction: column;
   gap: 9px;
-}
-
-.footer-item {
 }
 
 .footer-link {
